@@ -23,8 +23,24 @@ z-index: 999999999999999999999999;
 
 
 }
+.logo{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
 .logo img{
     width: 150px;
+}
+.logo button{
+transition: all 1s;
+    border: none;
+    background: none;
+}
+.logo .fa-regular:hover{
+
+font-weight: 900;
+
 }
 nav{
 flex: 1;
@@ -96,8 +112,27 @@ background: #563434;
 
 
 }
+.fa-moon {
+    font-size: 26px;
+   cursor: pointer;
+}
+.backs{
+   background-color: #242526 !important;
+ header{
+    background: none !important;
+ }
+    footer{
+        background: none;
+    }
+.offer{ background: none;}
+.account-page{
+    background: none;
+}
+.col-2ss{
+    background-color: #242526 !important;
 
-
+}
+}
 .categories{
     margin: 70px 0;
 }
@@ -149,6 +184,17 @@ h4{
 }
 .rating  .fa-star{
     color: #ff523b;
+}
+.parent{
+
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.parent h4{
+    margin-left: 23px;
 }
 .rating .fa-star-half-stroke{
     color: #ff523b;
@@ -275,12 +321,22 @@ min-width: 250px;
 margin-bottom: 20px;
 
 }
+.footer-col-1 {
+    align-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .footer-col-1{
     flex-basis: 30%;
 }
 .footer-col-2{
     flex: 1;
     text-align: center;
+}
+footer ul {
+    padding-left: 0 !important; 
 }
 .footer-col-2 img{
 width: 180px;
@@ -290,14 +346,21 @@ margin-bottom: 20px;
 .footer-col-3,.footer-col-4{
 flex-basis: 12%;
 text-align: center;
+display: flex;
+flex-direction: column;
 
 }
 ul{
     list-style: none;
+  
 }
 .logo-app{
+ 
     margin-top: 20px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .logo-app img{
     width: 140px;
@@ -368,6 +431,8 @@ nav ul  li{
 
 
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .col-2ss,.col-3ss,.col-4ss{
 

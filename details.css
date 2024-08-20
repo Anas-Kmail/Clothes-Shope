@@ -19,9 +19,12 @@
     position: sticky;
     top: 0;
     z-index: 9999;
-   
     
     
+    
+    }
+    header{
+        background: radial-gradient(#fff,#ffd6d6);
     }
     .logo img{
         width: 150px;
@@ -29,6 +32,7 @@
     nav{
     flex: 1;
     text-align: right;
+    
     
     }
     nav ul{
@@ -219,6 +223,9 @@
       
     
     
+    }
+    footer ul {
+        padding-left: 0 !important; 
     }
     .testimonial .col-3ss p{
         font-size: 12px;
